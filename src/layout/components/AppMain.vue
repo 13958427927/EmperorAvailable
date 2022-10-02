@@ -24,10 +24,11 @@ export default {
   width: 1344px ;
   position: relative;
   overflow: hidden;
-  margin-left: 210px;
+  margin-left: 170px;
+  background-color: #F8FAFD;
 }
 .fixed-header+.app-main {
-  padding-top: 50px;
+  padding-top: 60px;
 }
 </style>
 

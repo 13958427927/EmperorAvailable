@@ -9,7 +9,7 @@
 
   .sidebar-container {
     transition: width 0.28s;
-    width: $sideBarWidth !important;
+    width: 170px;
     background-color: $menuBg;
     height: 100%;
     position: fixed;
@@ -77,16 +77,16 @@
     }
 
     .is-active>.el-submenu__title {
-      color: $subMenuActiveText !important;
+      color:rgb(64, 158, 255) !important;
     }
 
     & .nest-menu .el-submenu>.el-submenu__title,
     & .el-submenu .el-menu-item {
       min-width: $sideBarWidth !important;
-      background-color: $subMenuBg !important;
+      // background-color: $subMenuBg !important;
 
       &:hover {
-        background-color: $subMenuHover !important;
+        background-color: transparent !important;;
       }
     }
   }
